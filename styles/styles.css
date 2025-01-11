@@ -68,11 +68,19 @@ body{ background-color: #F5F5F5;}
 /* Four box styles */
 
 .four-boxes-and-title-parent{
-  margin-top: 80px;
+  /* margin-top: 80px; */
+  flex-direction: column;
+  width: 1280px;
+  height: 324px;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 160px 0px 310px;
 }
 
 .four-boxes{
   display: flex;
+  gap: 24px;
+  
 }
 
 .four-card-title{
@@ -83,10 +91,9 @@ body{ background-color: #F5F5F5;}
 
 .one-of-four-box{
   width: 302px;
-  height: 244px;
+  height: 190px;
   padding: 24px;
   background-color: white;
-  margin-inline: 24px;
   border-radius: 16px;
 }
 
@@ -107,3 +114,4 @@ body{ background-color: #F5F5F5;}
   color: #565656;
   font-size: 16px;
 }
+
