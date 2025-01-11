@@ -14,6 +14,10 @@ body {
 
 body{ background-color: #F5F5F5;}
 
+.first-section{
+  margin-top: 70px;
+}
+
 .content-container-p1{
   display: flex;
   align-items: center;
@@ -91,7 +95,7 @@ body{ background-color: #F5F5F5;}
 
 .one-of-four-box{
   width: 302px;
-  height: 190px;
+  height: 210px;
   padding: 24px;
   background-color: white;
   border-radius: 16px;
@@ -113,5 +117,136 @@ body{ background-color: #F5F5F5;}
 .box-description{
   color: #565656;
   font-size: 16px;
+  line-height: 24px;
 }
 
+/* The vision of future section style */
+
+.second-section{
+  margin-top: 80px;
+  width: 1280px;
+  margin: 80px 160px 0px 310px;
+}
+
+.second-section-intro{
+  margin-bottom: 32px;
+  height: 120px;
+  width: 1280px;
+}
+
+.three-box-headline{
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+}
+
+.three-box-descrip{
+  font-size: 16px;
+  color: #535353;
+  margin-top: 24px;
+  line-height: 24px;
+}
+
+.three-box-parent{
+  display: flex;
+}
+
+.first-of-three-box{
+  width: 410.67px;
+  height: 270px;
+  background-color: #D5E1F5;
+  padding: 32px;
+  border-radius: 16px;
+  margin-right: 24px;
+}
+
+.second-of-three-box{
+  width: 410.67px;
+  height: 270px;
+  background-color: #C6E4D6;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.third-of-three-box{
+  width: 410.67px;
+  height: 270px;
+  background-color: #F7EBCF;
+  padding: 32px;
+  border-radius: 16px;
+  margin-left: 24px;
+}
+
+.there-box-icon{
+  height: 64px;
+  width: 64px;
+  margin-bottom: 24px;
+}
+
+.three-box-title{
+  font-size: 20px;
+  font-weight: bold;
+  color: #36383C;
+  margin-bottom: 12px;
+}
+
+.three-box-paragraph{
+  color: #4A4D53;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+
+
+.three-box-btn-first{
+  width: 122px;
+  height: 41px;
+  border: none;
+  padding: 11px 20px 11px 20px;
+  font-size: 15px;
+  color: #FFFFFF;
+  font-weight: 600;
+  background-color: #5490F5;
+  border-radius: 8px;
+}
+.three-box-btn-first:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+
+.three-box-btn-second{
+  width: 122px;
+  height: 41px;
+  border: none;
+  padding: 11px 20px 11px 20px;
+  font-size: 15px;
+  color: #FFFFFF;
+  font-weight: 600;
+  background-color: #09A15C;
+  border-radius: 8px;
+}
+.three-box-btn-second:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.three-box-btn-third{
+  width: 122px;
+  height: 41px;
+  border: none;
+  padding: 11px 20px 11px 20px;
+  font-size: 15px;
+  color: #FFFFFF;
+  font-weight: 600;
+  background-color: #FFC239;
+  border-radius: 8px;
+}
+.three-box-btn-third:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
