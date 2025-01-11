@@ -14,6 +14,49 @@ body {
 
 body{ background-color: #F5F5F5;}
 
+/* Nav Section Style */
+
+.web-title{
+  font-size: 32px;
+  font-weight: bold;
+  color: #0E0E0E;
+  margin-left: 310px;
+}
+
+.web-title:hover{
+  cursor: pointer;
+}
+
+.si-btn{
+  width: 120px;
+  height: 55px;
+  padding: 14px 28px 14px 28px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #006A50;
+  background-color: #F5F5F5;
+  border: 1px solid #006A50;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.si-btn:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-bar{
+  height: 100px;
+  width: 1600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -55px;
+  padding: 5px;
+}
+
+
 .first-section{
   margin-top: 70px;
 }
@@ -454,4 +497,32 @@ body{ background-color: #F5F5F5;}
 
 .donate-now-btn-parent{
   text-align: center;
+}
+
+/* Footer Style */
+
+footer{
+  background-color: #FFFFFF;
+  height: 226px;
+  margin-top: 80px;
+}
+
+.footer-title{
+  font-size: 32px;
+  font-weight: bold;
+  color: #0E0E0E;
+  text-align: center;
+  margin: 138px 689px 50px 689px;
+}
+
+.hr-line{
+  width: 1122px;
+  color: #0e0e0e02;
+  text-align: center;
+  margin: auto;
+}
+
+.social-media-links{
+  text-align: center;
+  margin-top: 32px;
 }
