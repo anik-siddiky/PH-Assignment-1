@@ -250,3 +250,101 @@ body{ background-color: #F5F5F5;}
   color: white;
   cursor: pointer;
 }
+
+/* News section style start */
+
+.news-section-s3{
+  margin: 80px 160px 0px 310px;
+  margin-bottom: -56px;
+}
+
+.news-title-descrip{
+  margin-top: 80px;
+  width: 1280px;
+  height: 120px;
+}
+
+.recent-news-headline{
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+  margin-bottom: 24px;
+}
+
+.recent-news-descrip{
+  font-size: 16px;
+  color: #535353;
+  line-height: 24px;
+}
+
+.image-and-content{
+  display: flex;
+  width: 1280px;
+  height: 402px;
+  background-color: white;
+  border-radius: 24px;
+  margin-top: 32px;
+  align-items: center;
+}
+
+.satelite-image{
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+  margin: 48px 0px 48px 48px;
+}
+
+.new-content-s3{
+  width: 744px;
+  height: 290px;
+  margin: 56px 48px 56px 32px;
+}
+
+.news-title-s3{
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 12px;
+}
+
+.aljazeera-logo{
+  width: 134px;
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+.time-in-news{
+  line-height: 24px;
+  color: #565656;
+  margin-bottom: 12px;
+}
+
+.news-paragraph-s3{
+  font-size: 16px;
+  line-height: 24px;
+  color: #565656;
+  margin-bottom: 28px;
+}
+
+.news-rm-btn{
+  width: 139px;
+  height: 48px;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  background-color: #006A50;
+  border-radius: 8px;
+}
+.news-rm-btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.satelite-image-news2{
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+  margin: 48px 48px 48px 0px;
+}
